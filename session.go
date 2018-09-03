@@ -70,7 +70,7 @@ const (
 
 	// Eventual mode is specific to mgo, and is same as Nearest, but may change servers between reads.
 	Eventual Mode = 0
-	// Monotonic mode is specifc to mgo, and is same as SecondaryPreferred before first write. Same as Primary after first write.
+	// Monotonic mode is specific to mgo, and is same as SecondaryPreferred before first write. Same as Primary after first write.
 	Monotonic Mode = 1
 	// Strong mode is specific to mgo, and is same as Primary.
 	Strong Mode = 2
